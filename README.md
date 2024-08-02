@@ -1,5 +1,5 @@
 
-```markdown
+
 # Cat vs Dog Classifier
 
 A web-based application to classify images of cats and dogs using a Convolutional Neural Network (CNN). This project utilizes TensorFlow and Flask to provide an interactive interface for image classification.
