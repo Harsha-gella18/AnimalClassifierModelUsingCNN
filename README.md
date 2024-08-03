@@ -1,31 +1,31 @@
 
-# Animal Classifier Model 
+# Animal Classifier Model Using CNN
 
 A web-based application to classify images of animals, currently supporting cats and dogs, using a Convolutional Neural Network (CNN). This project utilizes TensorFlow and Flask to provide an interactive interface for image classification. Future updates will include training the model to recognize a broader range of animal species.
 
 ## Project Structure
 
 ```
-AnimalClassifier/
+AnimalClassifierModelUsingCNN/
 │
 ├── app.py                 # Flask application for handling web requests and displaying results
 ├── model/
-│   ├── train.py            # Script to train the CNN model
+│   ├── train.py           # Script to train the CNN model
 │   ├── cnn_model.h5       # Pre-trained CNN model
 │
 ├── templates/
-│   ├── index.html          # HTML page for uploading images
-│   ├── result.html         # HTML page for displaying classification results
+│   ├── index.html         # HTML page for uploading images
+│   ├── result.html        # HTML page for displaying classification results
 │
 ├── static/
-│   ├── styles.css          # CSS file for styling the web pages
-│   ├── script.js           # JavaScript file for responsiveness
+│   ├── styles.css         # CSS file for styling the web pages
+│   ├── script.js          # JavaScript file for responsiveness
 │
-├── uploads/                # Directory where uploaded images are stored
+├── uploads/               # Directory where uploaded images are stored
 │
-├── .gitignore              # Git ignore file to exclude unnecessary files from version control
-├── requirements.txt        # List of required Python packages
-└── README.md               # Project documentation
+├── .gitignore             # Git ignore file to exclude unnecessary files from version control
+├── requirements.txt       # List of required Python packages
+└── README.md              # Project documentation
 ```
 
 ## Installation
@@ -34,8 +34,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Harsha-gella18/CatDogClassifier.git
-   cd CatDogClassifier
+   git clone https://github.com/Harsha-gella18/AnimalClassifierModelUsingCNN.git
+   cd AnimalClassifierModelUsingCNN
    ```
 
 2. **Create and Activate a Virtual Environment:**
@@ -94,4 +94,3 @@ This project requires the following Python packages:
 ## Contributors
 
 - [Gella Harsha Vardhan](https://github.com/Harsha-gella18)
-
