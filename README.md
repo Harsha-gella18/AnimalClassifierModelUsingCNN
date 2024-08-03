@@ -1,13 +1,12 @@
 
+# Animal Classifier Model 
 
-# Cat vs Dog Classifier
-
-A web-based application to classify images of cats and dogs using a Convolutional Neural Network (CNN). This project utilizes TensorFlow and Flask to provide an interactive interface for image classification.
+A web-based application to classify images of animals, currently supporting cats and dogs, using a Convolutional Neural Network (CNN). This project utilizes TensorFlow and Flask to provide an interactive interface for image classification. Future updates will include training the model to recognize a broader range of animal species.
 
 ## Project Structure
 
 ```
-CatDogClassifier/
+AnimalClassifier/
 │
 ├── app.py                 # Flask application for handling web requests and displaying results
 ├── model/
@@ -73,6 +72,10 @@ To run this project locally, follow these steps:
 2. **View Results:**
    - The application will display whether the uploaded image is a cat or a dog based on the CNN model's prediction.
 
+## Future Plans
+
+The current model is trained to classify images of cats and dogs. In future updates, we plan to train the model with more animal species to provide a wider range of classifications.
+
 ## Project Details
 
 - **CNN Model:** The model is built using TensorFlow and Keras, with a convolutional neural network architecture.
@@ -88,7 +91,7 @@ This project requires the following Python packages:
 - numpy
 - pillow
 
-
 ## Contributors
+
 - [Gella Harsha Vardhan](https://github.com/Harsha-gella18)
-```
+
